@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1D75F5320834B423F6B893 /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8C52901BD67B3EBAA97C5 /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */; };
+		67A3F4D2F5CABF11836B268D /* Pods_SimpleDashboardWithTabbarRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D9652137F0DA6F98B3614D /* Pods_SimpleDashboardWithTabbarRxSwift.framework */; };
+		813D6FD3AA7F19E3ECBB3F1A /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52B8B3CF0D46EBA685D23C5 /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */; };
 		869F648222B32B9100F073C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F648122B32B9100F073C5 /* AppDelegate.swift */; };
 		869F648422B32B9100F073C5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F648322B32B9100F073C5 /* FirstViewController.swift */; };
 		869F648622B32B9100F073C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F648522B32B9100F073C5 /* SecondViewController.swift */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0651137CB23DCC594AA805AB /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		657BB4239B253466A586BE8E /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		6A5626B31791792C77F2DCC5 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BB8C52901BD67B3EBAA97C5 /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDashboardWithTabbarRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		869F647E22B32B9100F073C5 /* SimpleDashboardWithTabbarRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDashboardWithTabbarRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		869F648122B32B9100F073C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		869F648322B32B9100F073C5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		869F64A322B32B9200F073C5 /* SimpleDashboardWithTabbarRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDashboardWithTabbarRxSwiftUITests.swift; sourceTree = "<group>"; };
 		869F64A522B32B9200F073C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869F64B122B32C5D00F073C5 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		A52B8B3CF0D46EBA685D23C5 /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D9652137F0DA6F98B3614D /* Pods_SimpleDashboardWithTabbarRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDashboardWithTabbarRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66F301A54D1381B4596A8E /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D50AD744C19D23DF347169 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C124C765D2CA2C645E25286C /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A3F4D2F5CABF11836B268D /* Pods_SimpleDashboardWithTabbarRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1D75F5320834B423F6B893 /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813D6FD3AA7F19E3ECBB3F1A /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653FEB1FC18E5CDBDCD92997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D9652137F0DA6F98B3614D /* Pods_SimpleDashboardWithTabbarRxSwift.framework */,
+				7BB8C52901BD67B3EBAA97C5 /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */,
+				A52B8B3CF0D46EBA685D23C5 /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		869F647522B32B9100F073C5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				869F649722B32B9200F073C5 /* SimpleDashboardWithTabbarRxSwiftTests */,
 				869F64A222B32B9200F073C5 /* SimpleDashboardWithTabbarRxSwiftUITests */,
 				869F647F22B32B9100F073C5 /* Products */,
+				B95D93170F5648341120BCE9 /* Pods */,
+				653FEB1FC18E5CDBDCD92997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,20 @@
 			path = SimpleDashboardWithTabbarRxSwiftUITests;
 			sourceTree = "<group>";
 		};
+		B95D93170F5648341120BCE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0651137CB23DCC594AA805AB /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */,
+				657BB4239B253466A586BE8E /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */,
+				BD66F301A54D1381B4596A8E /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */,
+				6A5626B31791792C77F2DCC5 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */,
+				C124C765D2CA2C645E25286C /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */,
+				C0D50AD744C19D23DF347169 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 869F64A822B32B9200F073C5 /* Build configuration list for PBXNativeTarget "SimpleDashboardWithTabbarRxSwift" */;
 			buildPhases = (
+				D4F65B81A55E55577F224465 /* [CP] Check Pods Manifest.lock */,
 				869F647A22B32B9100F073C5 /* Sources */,
 				869F647B22B32B9100F073C5 /* Frameworks */,
 				869F647C22B32B9100F073C5 /* Resources */,
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 869F64AB22B32B9200F073C5 /* Build configuration list for PBXNativeTarget "SimpleDashboardWithTabbarRxSwiftTests" */;
 			buildPhases = (
+				BDB8AC5EB7FC89C11EC3EE97 /* [CP] Check Pods Manifest.lock */,
 				869F649022B32B9200F073C5 /* Sources */,
 				869F649122B32B9200F073C5 /* Frameworks */,
 				869F649222B32B9200F073C5 /* Resources */,
@@ -173,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 869F64AE22B32B9200F073C5 /* Build configuration list for PBXNativeTarget "SimpleDashboardWithTabbarRxSwiftUITests" */;
 			buildPhases = (
+				0282870132FA49692BCDBAAC /* [CP] Check Pods Manifest.lock */,
 				869F649B22B32B9200F073C5 /* Sources */,
 				869F649C22B32B9200F073C5 /* Frameworks */,
 				869F649D22B32B9200F073C5 /* Resources */,
@@ -256,6 +300,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0282870132FA49692BCDBAAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleDashboardWithTabbarRxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB8AC5EB7FC89C11EC3EE97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleDashboardWithTabbarRxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F65B81A55E55577F224465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleDashboardWithTabbarRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		869F647A22B32B9100F073C5 /* Sources */ = {
@@ -438,6 +551,7 @@
 		};
 		869F64A922B32B9200F073C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0651137CB23DCC594AA805AB /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +569,7 @@
 		};
 		869F64AA22B32B9200F073C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657BB4239B253466A586BE8E /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +587,7 @@
 		};
 		869F64AC22B32B9200F073C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD66F301A54D1381B4596A8E /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +608,7 @@
 		};
 		869F64AD22B32B9200F073C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5626B31791792C77F2DCC5 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +629,7 @@
 		};
 		869F64AF22B32B9200F073C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C124C765D2CA2C645E25286C /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +649,7 @@
 		};
 		869F64B022B32B9200F073C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D50AD744C19D23DF347169 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

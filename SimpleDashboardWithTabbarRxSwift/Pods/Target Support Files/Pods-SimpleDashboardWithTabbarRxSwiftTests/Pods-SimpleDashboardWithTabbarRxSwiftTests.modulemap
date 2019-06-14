@@ -1,0 +1,6 @@
+framework module Pods_SimpleDashboardWithTabbarRxSwiftTests {
+  umbrella header "Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

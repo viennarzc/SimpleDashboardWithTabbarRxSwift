@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CCFEC24AD86F219661B06236320C82 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7614A9240DAFAAD2356CD70E3AB727 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D60E7D7F1CFC91552D050EF80CEDEDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3E36B40C046488851B415F5B8B4A8D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7D6C65B367FBB1F9695E632CE37D3794 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D886A1253C06859666FBB64688D1EB7 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m */; };
+		8FB5AD24BA94F8593EB618019830F86B /* Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2613464630DE88271405C09AC8ADDCB0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9362B4C5335286C5DA65298D53A6E7A6 /* Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1E52C267747DC5120BD4A0F9B4E1A0 /* Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6B97AB271E88196DAD905FD94E10BC /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0136E2D50D4A7F68BC8DC26C6581551 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m */; };
+		A8301FE4AAD53700D79C9A7F2A93BDA3 /* Pods-SimpleDashboardWithTabbarRxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC8D7C3A7E6FCCE8A3865C0935A894 /* Pods-SimpleDashboardWithTabbarRxSwift-dummy.m */; };
+		D4DC3A881403B0B93F59124A06B4E10C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B03005B60C2DAB64FEACFE785A7628A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164E7F0699EBBAC98D40FB146EBE59EC;
+			remoteInfo = "Pods-SimpleDashboardWithTabbarRxSwift";
+		};
+		82CB9E74DA1B26EE288BD04AC11A1F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164E7F0699EBBAC98D40FB146EBE59EC;
+			remoteInfo = "Pods-SimpleDashboardWithTabbarRxSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0749E7B59B934A74FA06742E528AFF18 /* Pods_SimpleDashboardWithTabbarRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleDashboardWithTabbarRxSwift.framework; path = "Pods-SimpleDashboardWithTabbarRxSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2613464630DE88271405C09AC8ADDCB0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		26C4627F4B15F388C5475F1E2CE81D4F /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		3D40ECB84019FB1D58FA6AE68A77B1F0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		595B0C8EA2520B45662B77199215301C /* Pods-SimpleDashboardWithTabbarRxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleDashboardWithTabbarRxSwift.modulemap"; sourceTree = "<group>"; };
+		61342E003420C1CE5789A565BE3AAD11 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6839221B896CDADBB3947485AAF1033B /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D886A1253C06859666FBB64688D1EB7 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		819C410AB5320DC79015EA06A7311034 /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		850B0C16A3682A1E894F4808EA35FF8E /* Pods-SimpleDashboardWithTabbarRxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwift-Info.plist"; sourceTree = "<group>"; };
+		8736C7247E0BE9DE3350FC4AFA26C188 /* Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		876142392BD6A8C237897B038ACFF0DB /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleDashboardWithTabbarRxSwiftTests.framework; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889B8B9FFE381E3DDAADB9BE1B618ACF /* Pods-SimpleDashboardWithTabbarRxSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests.modulemap"; sourceTree = "<group>"; };
+		9C04DE0A40F7B52EC280B0A753B90AC0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CEFBBF163F8A41D2B17A23BD54F9F85 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A155B70478E996731FAEC0364A68D9FE /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A2E154D9540FD336766945CAD1B80CB3 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0AD91BCB0BF066025F23DA3C99885EA /* Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDBC8D7C3A7E6FCCE8A3865C0935A894 /* Pods-SimpleDashboardWithTabbarRxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleDashboardWithTabbarRxSwift-dummy.m"; sourceTree = "<group>"; };
+		C6B40F170992D228F37FB504E8D293AF /* Pods-SimpleDashboardWithTabbarRxSwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests-Info.plist"; sourceTree = "<group>"; };
+		CB1E52C267747DC5120BD4A0F9B4E1A0 /* Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEC2B14A607AF0AE6C4490FC8C4D4EE9 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9FCE0279BA8990756D130624653644A /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB7614A9240DAFAAD2356CD70E3AB727 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		E0136E2D50D4A7F68BC8DC26C6581551 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		F5709A928575C2DEF555729540B0BC28 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB02021EE9F8D55158649B8745243EEE /* Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFCE23A2CF75ED92A5A16662AE1E35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DC3A881403B0B93F59124A06B4E10C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FEC185934A74FEB51B4D14FD91CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E36B40C046488851B415F5B8B4A8D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853AF04004846C40C71A6D578006121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D60E7D7F1CFC91552D050EF80CEDEDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115D1B85807DE7F1594994A789E61C18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				904F65D413F37CA15E577F956CCC6DA0 /* Pods-SimpleDashboardWithTabbarRxSwift */,
+				966221D69CC81B572AF24EECB4640CB9 /* Pods-SimpleDashboardWithTabbarRxSwiftTests */,
+				27EED747830FBC1C52C823560286E444 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		27EED747830FBC1C52C823560286E444 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26C4627F4B15F388C5475F1E2CE81D4F /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.modulemap */,
+				F5709A928575C2DEF555729540B0BC28 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.markdown */,
+				CEC2B14A607AF0AE6C4490FC8C4D4EE9 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-acknowledgements.plist */,
+				E0136E2D50D4A7F68BC8DC26C6581551 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m */,
+				9CEFBBF163F8A41D2B17A23BD54F9F85 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-Info.plist */,
+				DB7614A9240DAFAAD2356CD70E3AB727 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h */,
+				A2E154D9540FD336766945CAD1B80CB3 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */,
+				D9FCE0279BA8990756D130624653644A /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwiftUITests";
+			path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests";
+			sourceTree = "<group>";
+		};
+		8D0E24D709A2B95DD550DA7FBA93CE0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0749E7B59B934A74FA06742E528AFF18 /* Pods_SimpleDashboardWithTabbarRxSwift.framework */,
+				876142392BD6A8C237897B038ACFF0DB /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */,
+				6839221B896CDADBB3947485AAF1033B /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904F65D413F37CA15E577F956CCC6DA0 /* Pods-SimpleDashboardWithTabbarRxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				595B0C8EA2520B45662B77199215301C /* Pods-SimpleDashboardWithTabbarRxSwift.modulemap */,
+				B0AD91BCB0BF066025F23DA3C99885EA /* Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.markdown */,
+				8736C7247E0BE9DE3350FC4AFA26C188 /* Pods-SimpleDashboardWithTabbarRxSwift-acknowledgements.plist */,
+				BDBC8D7C3A7E6FCCE8A3865C0935A894 /* Pods-SimpleDashboardWithTabbarRxSwift-dummy.m */,
+				850B0C16A3682A1E894F4808EA35FF8E /* Pods-SimpleDashboardWithTabbarRxSwift-Info.plist */,
+				CB1E52C267747DC5120BD4A0F9B4E1A0 /* Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h */,
+				819C410AB5320DC79015EA06A7311034 /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */,
+				A155B70478E996731FAEC0364A68D9FE /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */,
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwift";
+			path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift";
+			sourceTree = "<group>";
+		};
+		966221D69CC81B572AF24EECB4640CB9 /* Pods-SimpleDashboardWithTabbarRxSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				889B8B9FFE381E3DDAADB9BE1B618ACF /* Pods-SimpleDashboardWithTabbarRxSwiftTests.modulemap */,
+				FB02021EE9F8D55158649B8745243EEE /* Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.markdown */,
+				61342E003420C1CE5789A565BE3AAD11 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-acknowledgements.plist */,
+				6D886A1253C06859666FBB64688D1EB7 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m */,
+				C6B40F170992D228F37FB504E8D293AF /* Pods-SimpleDashboardWithTabbarRxSwiftTests-Info.plist */,
+				2613464630DE88271405C09AC8ADDCB0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h */,
+				9C04DE0A40F7B52EC280B0A753B90AC0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */,
+				3D40ECB84019FB1D58FA6AE68A77B1F0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwiftTests";
+			path = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D0E24D709A2B95DD550DA7FBA93CE0A /* Products */,
+				115D1B85807DE7F1594994A789E61C18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CE46C3A46FBD634BDC094248629C2F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CCFEC24AD86F219661B06236320C82 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A293C33BE2B5A5423781701BCE2F0196 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB5AD24BA94F8593EB618019830F86B /* Pods-SimpleDashboardWithTabbarRxSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99AD3900F379EA539638AE4D50A282B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9362B4C5335286C5DA65298D53A6E7A6 /* Pods-SimpleDashboardWithTabbarRxSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		164E7F0699EBBAC98D40FB146EBE59EC /* Pods-SimpleDashboardWithTabbarRxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7857895EE6CD2FC13F02E48E332AF01 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwift" */;
+			buildPhases = (
+				F99AD3900F379EA539638AE4D50A282B /* Headers */,
+				363F585AE7E3E8E79BCC585D3C9A317C /* Sources */,
+				7BFCE23A2CF75ED92A5A16662AE1E35B /* Frameworks */,
+				F9522D82E554C11F65C335ED3899B941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwift";
+			productName = "Pods-SimpleDashboardWithTabbarRxSwift";
+			productReference = 0749E7B59B934A74FA06742E528AFF18 /* Pods_SimpleDashboardWithTabbarRxSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D197189A87A97DFE328CD8B6616377AE /* Pods-SimpleDashboardWithTabbarRxSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B4129BCB8784D9327182D6DEB54C75 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwiftUITests" */;
+			buildPhases = (
+				6CE46C3A46FBD634BDC094248629C2F6 /* Headers */,
+				EAD6E3CBE1BA6BBC6F54936F7560A05A /* Sources */,
+				C1FEC185934A74FEB51B4D14FD91CC5D /* Frameworks */,
+				C3D7E7FBD0202A1483C2A04EF88E23A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D41BF7D683DA30D021891FE74BC944 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwiftUITests";
+			productName = "Pods-SimpleDashboardWithTabbarRxSwiftUITests";
+			productReference = 6839221B896CDADBB3947485AAF1033B /* Pods_SimpleDashboardWithTabbarRxSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F538FC710B783D909B72BE88084EDBBB /* Pods-SimpleDashboardWithTabbarRxSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F7D46EEE6E762C8AE2BA77F5238A19 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwiftTests" */;
+			buildPhases = (
+				A293C33BE2B5A5423781701BCE2F0196 /* Headers */,
+				A35B15DCE5D673C8BA0E7AAF9E1125DE /* Sources */,
+				D853AF04004846C40C71A6D578006121 /* Frameworks */,
+				EEF8E34EE3A33DC044AA32F200F79D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89281B79EB38EA84F7883196B979FB95 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleDashboardWithTabbarRxSwiftTests";
+			productName = "Pods-SimpleDashboardWithTabbarRxSwiftTests";
+			productReference = 876142392BD6A8C237897B038ACFF0DB /* Pods_SimpleDashboardWithTabbarRxSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D0E24D709A2B95DD550DA7FBA93CE0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164E7F0699EBBAC98D40FB146EBE59EC /* Pods-SimpleDashboardWithTabbarRxSwift */,
+				F538FC710B783D909B72BE88084EDBBB /* Pods-SimpleDashboardWithTabbarRxSwiftTests */,
+				D197189A87A97DFE328CD8B6616377AE /* Pods-SimpleDashboardWithTabbarRxSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D7E7FBD0202A1483C2A04EF88E23A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF8E34EE3A33DC044AA32F200F79D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9522D82E554C11F65C335ED3899B941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363F585AE7E3E8E79BCC585D3C9A317C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8301FE4AAD53700D79C9A7F2A93BDA3 /* Pods-SimpleDashboardWithTabbarRxSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35B15DCE5D673C8BA0E7AAF9E1125DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6C65B367FBB1F9695E632CE37D3794 /* Pods-SimpleDashboardWithTabbarRxSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6E3CBE1BA6BBC6F54936F7560A05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B97AB271E88196DAD905FD94E10BC /* Pods-SimpleDashboardWithTabbarRxSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D41BF7D683DA30D021891FE74BC944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleDashboardWithTabbarRxSwift";
+			target = 164E7F0699EBBAC98D40FB146EBE59EC /* Pods-SimpleDashboardWithTabbarRxSwift */;
+			targetProxy = 82CB9E74DA1B26EE288BD04AC11A1F65 /* PBXContainerItemProxy */;
+		};
+		89281B79EB38EA84F7883196B979FB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleDashboardWithTabbarRxSwift";
+			target = 164E7F0699EBBAC98D40FB146EBE59EC /* Pods-SimpleDashboardWithTabbarRxSwift */;
+			targetProxy = 0B03005B60C2DAB64FEACFE785A7628A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4844979BCEEC61F1782A7594B7FA0A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FCE0279BA8990756D130624653644A /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6391E80A4CE5916592536B65F8047D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819C410AB5320DC79015EA06A7311034 /* Pods-SimpleDashboardWithTabbarRxSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65FA8DE5B34C35AC4295C0088B8293BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D40ECB84019FB1D58FA6AE68A77B1F0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DA8DB9B306E561EC868CF4E9553238E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E154D9540FD336766945CAD1B80CB3 /* Pods-SimpleDashboardWithTabbarRxSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftUITests/Pods-SimpleDashboardWithTabbarRxSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A9097047D38D2CB22BA95177443A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A155B70478E996731FAEC0364A68D9FE /* Pods-SimpleDashboardWithTabbarRxSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwift/Pods-SimpleDashboardWithTabbarRxSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ABD8F43BD9F9FEFD41AD33E055767617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C04DE0A40F7B52EC280B0A753B90AC0 /* Pods-SimpleDashboardWithTabbarRxSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleDashboardWithTabbarRxSwiftTests/Pods-SimpleDashboardWithTabbarRxSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F7D46EEE6E762C8AE2BA77F5238A19 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD8F43BD9F9FEFD41AD33E055767617 /* Debug */,
+				65FA8DE5B34C35AC4295C0088B8293BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B4129BCB8784D9327182D6DEB54C75 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA8DB9B306E561EC868CF4E9553238E /* Debug */,
+				4844979BCEEC61F1782A7594B7FA0A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7857895EE6CD2FC13F02E48E332AF01 /* Build configuration list for PBXNativeTarget "Pods-SimpleDashboardWithTabbarRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6391E80A4CE5916592536B65F8047D93 /* Debug */,
+				8A9097047D38D2CB22BA95177443A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
