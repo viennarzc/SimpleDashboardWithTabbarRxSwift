@@ -27,6 +27,7 @@ class MainTabbarController: UITabBarController {
     
   }
   
+  
 }
 
 extension UITabBarController: UITabBarControllerDelegate {
@@ -37,6 +38,18 @@ extension UITabBarController: UITabBarControllerDelegate {
   
   public func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
     print("should select vc \(viewController)")
+
+    ///animation
+    
+//    guard let fromView = selectedViewController?.view, let toView = viewController.view else {
+//      return false // Make sure you want this as false
+//    }
+//
+//    if fromView != toView {
+//      UIView.transition(from: fromView, to: toView, duration: 0.3, options: [.transitionFlipFromLeft], completion: nil)
+//    }
+    
+    
     return true
   }
 
