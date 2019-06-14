@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 class MainTabbarController: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -23,7 +24,7 @@ class MainTabbarController: UITabBarController {
     tabBar.barTintColor = UIColor.purple
     tabBar.tintColor = .white
     
-
+    
   }
   
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "164E7F0699EBBAC98D40FB146EBE59EC"
+               BlueprintIdentifier = "7054AFED385671D858CF7F6F3B6B8B90"
                BuildableName = "Pods_SimpleDashboardWithTabbarRxSwift.framework"
                BlueprintName = "Pods-SimpleDashboardWithTabbarRxSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "164E7F0699EBBAC98D40FB146EBE59EC"
+            BlueprintIdentifier = "7054AFED385671D858CF7F6F3B6B8B90"
             BuildableName = "Pods_SimpleDashboardWithTabbarRxSwift.framework"
             BlueprintName = "Pods-SimpleDashboardWithTabbarRxSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
