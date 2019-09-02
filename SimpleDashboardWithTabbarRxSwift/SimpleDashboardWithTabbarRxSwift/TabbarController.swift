@@ -16,13 +16,14 @@ class MainTabbarController: UITabBarController {
     
     delegate = self
     
-    let thirdVC = UIViewController()
-    thirdVC.view.backgroundColor = .gray
-    thirdVC.tabBarItem = UITabBarItem(title: "third", image: UIImage(named: "first"), selectedImage: UIImage(named: "first"))
+    let secondVC = UIViewController()
+    secondVC.view.backgroundColor = .gray
+    secondVC.tabBarItem = UITabBarItem(title: "third", image: UIImage(named: "first"), selectedImage: UIImage(named: "first"))
     
-    viewControllers?.append(thirdVC)
-    tabBar.barTintColor = UIColor.purple
+    viewControllers?.append(secondVC)
+    tabBar.barTintColor = UIColor.darkGray
     tabBar.tintColor = .white
+    tabBarItem.badgeColor = .red
     
     
   }
